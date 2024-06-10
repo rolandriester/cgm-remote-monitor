@@ -9,17 +9,17 @@
     },
     "ALARM_HIGH": {
       "description": "Default setting for new browser views, for the High alarm (triggered when BG crosses BG_TARGET_TOP). ('on' or 'off')",
-      "value": "on",
+      "value": "off",
       "required": false
     },
     "ALARM_LOW": {
       "description": "Default setting for new browser views, for the Low alarm (triggered when BG crosses BG_TARGET_BOTTOM). ('on' or 'off')",
-      "value": "on",
+      "value": "off",
       "required": false
     },
     "ALARM_TIMEAGO_URGENT": {
       "description": "Default setting for new browser views, for an urgent alarm when CGM data hasn't been received in the number of minutes set in ALARM_TIMEAGO_URGENT_MINS. ('on' or 'off')",
-      "value": "on",
+      "value": "off",
       "required": false
     },
     "ALARM_TIMEAGO_URGENT_MINS": {
@@ -29,7 +29,7 @@
     },
     "ALARM_TIMEAGO_WARN": {
       "description": "Default setting for new browser views, for a warning alarm when CGM data hasn't been received in the number of minutes set in ALARM_TIMEAGO_WARN_MINS. ('on' or 'off')",
-      "value": "on",
+      "value": "off",
       "required": false
     },
     "ALARM_TIMEAGO_WARN_MINS": {
@@ -44,12 +44,12 @@
     },
     "ALARM_URGENT_HIGH": {
       "description": "Default setting for new browser views, for the Urgent High alarm (triggered when BG crosses BG_HIGH). ('on' or 'off')",
-      "value": "on",
+      "value": "off",
       "required": false 
     },
     "ALARM_URGENT_LOW": {
       "description": "Default setting for new browser views, for the Urgent Low alarm (triggered when BG crosses BG_LOW). ('on' or 'off')",
-      "value": "on",
+      "value": "off",
       "required": false
     },
     "API_SECRET": {
@@ -59,7 +59,7 @@
     },
     "BG_HIGH": {
       "description": "Urgent High BG threshold, triggers the ALARM_URGENT_HIGH alarm. Set in mg/dL or mmol/L, as set in DISPLAY_UNITS variable.",
-      "value": "260",
+      "value": "250",
       "required": false
     },
     "BG_LOW": {
